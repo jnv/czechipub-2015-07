@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "author": "Jan Vlnas",
+  "license": "CC0-1.0",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "cleaver index.md",
+    "start": "cleaver watch index.md"
+  },
+  "dependencies": {
+    "cleaver": "^0.7.4"
+  }
+}
